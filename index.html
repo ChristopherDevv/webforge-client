@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webforge Client</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white min-h-screen flex items-center justify-center">
+    <main class="relative max-w-5xl px-1 py-24  flex flex-col justify-center items-center mx-auto size-full before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples-dark/squared-bg-element.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+        <div class="text-center py-8 px-8">
+            <h1 class="mb-4 text-xs">Webforge Client</h1>
+            <h2 id="address" class="text-xl"></h2>
+            <h2 id="companyName" class="mt-3 text-5xl font-bold bg-clip-text bg-gradient-to-tr from-blue-600 to-pink-400 text-transparent"></h2>
+            
+            <div class="mt-8 bg-white/10 backdrop-blur-md rounded-3xl text-sm p-5 hover:scale-105 transition-all duration-500 cursor-pointer">
+                <p><strong>Phone Number:</strong> <span id="phoneNumber"></span></p>
+                <p><strong>Industry:</strong> <span id="industry"></span></p>
+                <p><strong>Business Type:</strong> <span id="businessType"></span></p>
+                <p><strong>Services/Products:</strong> <span id="servicesProducts"></span></p>
+                <p><strong>Tagline:</strong> <span id="tagline"></span></p>
+                <p><strong>Brand Colors:</strong> 
+                    <div id="brandColorsContainer"></div>
+                </p>
+                <p><strong>Social Media Links:</strong>
+                    <div id="socialMediaLinksContainer"></div>
+                </p>
+                <p><strong>Design Preferences:</strong> <span id="designPreferences"></span></p>
+            </div>
+        </div>
+    </main>
+  
+    <script src="scripts/app.js"></script>
+</body>
+</html>
